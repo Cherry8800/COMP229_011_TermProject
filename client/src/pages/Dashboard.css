@@ -1,22 +1,30 @@
-.dashboard {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .appointments-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  .appointments-table th,
-  .appointments-table td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
-  }
-  
-  .appointments-table th {
-    background-color: #f4f4f4;
-  }
-  
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f8ff;
+}
+
+.dashboard-content {
+  padding: 10px;
+}
+
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.appointments-table th,
+.appointments-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.appointments-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}

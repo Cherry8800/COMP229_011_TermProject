@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar /> {/* Navbar is now included here */}
+        <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />

@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'; // Optional: add this file for styling
+import './Navbar.css';
+import Logo1 from '../assets/logo1.jpg';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">QueueBy6</Link>
+        <Link to="/">
+          <img src={Logo1} alt="QueueBy6 Logo" className="app-logo" />
+          <span className="navbar-logoword">QUEUECARE</span>
+        </Link>
       </div>
       <ul className="navbar-links">
         <li><Link to="/">Home</Link></li>
