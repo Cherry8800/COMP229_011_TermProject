@@ -1,0 +1,41 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #ffffff; 
+  color: #000000; 
+}
+
+.landing-header {
+  margin-bottom: 20px;
+}
+
+.app-logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.hero-section {
+  margin-top: 30px;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #ffffff; 
+  background-color: #007bff; 
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  
+}
+
+.hero-button:hover {
+  background-color: #0056b3; 
+}

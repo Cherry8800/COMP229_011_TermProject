@@ -1,0 +1,36 @@
+/* Dashboard.css */
+.dashboard-page {
+  font-family: Arial, sans-serif;
+  padding: 100px;
+}
+
+.dashboard-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.appointments-table th,
+.appointments-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.appointments-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.appointments-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.appointments-table tr:hover {
+  background-color: #ddd;
+}
