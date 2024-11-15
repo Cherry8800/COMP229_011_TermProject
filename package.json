@@ -1,0 +1,12 @@
+{
+    "name": "comp229_011_termproject",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "concurrently \"npm run server\" \"npm run client\"",
+      "server": "node server.js",
+      "client": "npm start --prefix client"
+    },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
